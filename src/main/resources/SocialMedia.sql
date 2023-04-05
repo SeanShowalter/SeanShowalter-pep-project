@@ -15,8 +15,3 @@ create table message (
 
 insert into account (username, password) values ('testuser1', 'password');
 insert into message (posted_by, message_text, time_posted_epoch) values (1,'test message 1',1669947792);
-
---insert into account (username, password) values ('Luke', '12345');
---insert into message (posted_by, message_text, time_posted_epoch) values (2,'My light saber cuts deep',1669947793);
---insert into account (username, password) values ('Darth', 'darkside');
---insert into message (posted_by, message_text, time_posted_epoch) values (3,'If only you knew the power of the dark side!',1669947794);
